@@ -9,4 +9,5 @@
             : new ChainedProcessor<T>(first, next);
 
     }
+
 }

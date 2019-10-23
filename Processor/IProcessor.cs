@@ -5,6 +5,6 @@ namespace Netextensions.Core.Processor
 {
     public interface IProcessor<T>
     {
-        Task<T> ExecuteAsync(T payload, CancellationToken token);
+        Task<T> ExecuteAsync(T load, CancellationToken token);
     }
 }
