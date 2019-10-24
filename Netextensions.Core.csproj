@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <LangVersion>8.0</LangVersion>
-    <Version>1.0.0.1</Version>
-    <Description>processors</Description>
+    <Version>1.0.0.2</Version>
+    <Description>date, gender value objects, processors</Description>
     <Copyright>MIT</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/netextensions/Netextensions.Core</PackageProjectUrl>
@@ -12,10 +12,18 @@
     <PackageReleaseNotes>initial release</PackageReleaseNotes>
     <PackageTags>general package</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageIconUrl>https://github.com/netextensions/netextensions/raw/master/netExtensions.io.png</PackageIconUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageIcon>netExtensions.io.png</PackageIcon>
   </PropertyGroup>
  
   <ItemGroup>
-    <PackageReference Include="NetExtensions.ValueObject" Version="1.0.0.7" />
+    <PackageReference Include="NetExtensions.ValueObject" Version="1.0.0.8" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <None Include="..\Netextensions-ValueObject\netExtensions.io.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>
